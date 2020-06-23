@@ -1,5 +1,5 @@
 #grab docker image with openjdk
-FROM openjdk:8
+FROM arm32v7/openjdk:8
 #workdir
 WORKDIR /usr/src/Cxflow
 #Copy cxflow to the container
