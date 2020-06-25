@@ -23,7 +23,7 @@ logging:
 cx-flow:
   # Agreed upon shared API token
   token: CXIM
-  bug-tracker: JIRA
+  bug-tracker: Csv
   bug-tracker-impl:
     - CxXml
     - Json
@@ -51,7 +51,7 @@ checkmarx:
   username: admin
   password: admin
   client-secret: 014DF517-39D1-4453-B7B3-9930C563627C
-  base-url: http://localhost
+  base-url: http://192.168.0.113
   url: ${checkmarx.base-url}/cxrestapi
   multi-tenant: false
   incremental: false
